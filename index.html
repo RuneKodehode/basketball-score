@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BB score
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="måltavle">
+            <h3 class="HL">HOME</h3>
+            <h4 id="homescore">0</h4>
+        </div>
+        <div class="måltavle">
+            <h3 class="HL">GUEST</h3>
+            <h4 id="awayscore">0</h4>
+        </div>
+    </div>
+        <div class="poengknappa">
+            <h3>Heimalaget</h3>
+            <button onclick="ettMålH()">+1</button>
+            <button onclick="toMålH()">+2</button>
+            <button onclick="treMålH()">+3</button>
+        </div>
+        <div class="poengknappa">
+            <h3>bortelaget</h3>
+            <button onclick="ettMålB()">+1</button>
+            <button onclick="toMålB()">+2</button>
+            <button onclick="treMålB()">+3</button>
+        </div>
+        <div class="poengknappa">
+            <h3>Nullstill</h3>
+            <button onclick="fjern()">fjerna alt</button>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
